@@ -1,0 +1,47 @@
+.contact{
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    h2{
+        margin-top: 10%;
+    }
+}
+
+.contactContent{
+    display: flex;
+    justify-content: space-around;
+    // border: 5px solid red;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contactImg{
+    width: 33%;
+}
+
+form{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    // border: 2px solid black;
+    padding: 5%;
+    background-color: $containerColor;
+    box-shadow: 6px 6px 10px grey;
+    button{
+        margin-top: 5%;
+    }
+}
+input[type='text'],
+input[type='email']{
+    height: 50px;
+    margin: 5% 0
+}
+
+footer{
+    text-align: center;
+    p{
+        font-size: 1.3rem;
+    }
+}

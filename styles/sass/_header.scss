@@ -1,0 +1,56 @@
+header{
+    height: 100vh;
+    position: relative;
+}
+
+
+.navigation{
+    // display: flex;
+    // justify-content: space-between;
+    // padding: 1% 4.3%;
+    position: fixed;
+    width: 100vw;
+    margin-top: 2%;
+}
+
+span{
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+nav{
+    float: right;
+    margin-right: 5%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    li{
+        margin: 0 2%
+    }
+}
+
+.titleText{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    text-align: center;
+    h3, h4{
+        font-size: 1.3rem;
+    }
+}
+
+.socialMedia{
+    position: fixed;
+    right: 5%;
+    bottom: 34%;
+    li{
+        margin-bottom: 50%;
+    }
+    a{
+        font-size: 1.3rem;
+    }
+}
+

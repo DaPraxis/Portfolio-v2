@@ -1,0 +1,18 @@
+.experience{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceContent{
+    // border: 5px solid green;
+    width: 70%;
+    padding: 5% ;
+    background-color: $containerColor;
+    color: $primaryColor;
+    box-shadow: 6px 6px 10px grey;
+    a{
+        color: $primaryColor;
+    }
+}
