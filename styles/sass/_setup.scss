@@ -13,12 +13,17 @@ $primaryColor:#d1dfe7;
 $buttonColor: #c9664a;
 // $containerColor: #82bbb5;
 $containerColor: #1e638e;
-// $voidColor: #bb9130;
-$voidColor:#894726;
+$voidColor: #b5651d;
+// $voidColor:#894726;
+$experienceColor: #d69657;
+
+$headerFont: 'Josefin Slab', ;
+$bodyFont:  'Josefin Sans', ;
 
 body{
     font-size: 62.5%;
     background-color: $primaryColor;
+    font-family: $bodyFont;
 }
 
 .wrapper{
@@ -29,6 +34,7 @@ body{
 h1{
     font-size: 4rem;
     margin: 0;
+    font-family: $headerFont;
 }
 
 h2{
@@ -84,4 +90,17 @@ button{
     border: none;
     color: white;
     padding: 5% 2%;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+
+button:hover, button:focus{
+    box-shadow: 5px 5px 2px gray;
+    cursor: pointer;
+}
+
+button:active{
+    outline: none;
 }

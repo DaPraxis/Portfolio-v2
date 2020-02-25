@@ -18,28 +18,69 @@
 }
 
 .contactImg{
-    width: 33%;
+    width: 40%;
 }
 
 form{
-    margin: auto 0;
+    width: 40%;
+    margin: 0 0;
     display: flex;
     flex-direction: column;
     // border: 2px solid black;
-    padding: 5%;
-    background-color: $containerColor;
-    box-shadow: 6px 6px 10px grey;
+    padding-left: 5%;
+    // background-color: $containerColor;
+    // box-shadow: 6px 6px 10px grey;
     button{
-        margin-top: 5%;
+        margin-top: 4%;
     }
 }
 input[type='text'],
 input[type='email']{
-    height: 50px;
-    margin: 5% 0
+    padding: 0 5%;
+    height: 55px;
+    margin: 5% 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    transition: border 0.5s;
 }
 
+input[type='text']:active,
+input[type='email']:active,
+input[type='text']:focus,
+input[type='email']:focus,
+textarea:active,
+textarea:focus{
+    border: none;
+    border: 2px solid black;
+}
+
+textarea{
+    padding: 10% 5%;
+    margin: 5% 0;
+    border: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    transition: border 0.5s;
+}
+
+::placeholder{
+    // color: black;
+    font-size: 1rem;
+    transition: color 0.5s;
+}
+input:focus::-webkit-input-placeholder, 
+textarea:focus::-webkit-input-placeholder {
+    color: $voidColor;
+}
+input:active::-webkit-input-placeholder,
+textarea:active::-webkit-input-placeholder {
+    color: $voidColor;
+}
 footer{
+    margin-top: 5%;
+    color: grey;
     text-align: center;
     p{
         font-size: 1.3rem;

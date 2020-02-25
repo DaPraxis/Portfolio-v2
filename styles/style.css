@@ -238,6 +238,7 @@ html {
 body {
   font-size: 62.5%;
   background-color: #d1dfe7;
+  font-family: "Josefin Sans";
 }
 
 .wrapper {
@@ -248,6 +249,7 @@ body {
 h1 {
   font-size: 4rem;
   margin: 0;
+  font-family: "Josefin Slab";
 }
 
 h2 {
@@ -308,6 +310,24 @@ button {
   border: none;
   color: white;
   padding: 5% 2%;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+button:hover, button:focus {
+  -webkit-box-shadow: 5px 5px 2px gray;
+          box-shadow: 5px 5px 2px gray;
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
 }
 
 header {
@@ -354,6 +374,176 @@ nav ul li {
 
 .titleText h3, .titleText h4 {
   font-size: 1.3rem;
+}
+
+.work {
+  color: #1e638e;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.work:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+@-webkit-keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.play {
+  position: relative;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: #d69657;
+}
+
+.play:hover {
+  cursor: pointer;
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.live {
+  color: #c9664a;
+}
+
+.live:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  -webkit-animation: shake 0.5s;
+          animation: shake 0.5s;
+  /* When the animation is finished, start again */
+  -webkit-animation-iteration-count: 2s;
+          animation-iteration-count: 2s;
 }
 
 .socialMedia {
@@ -421,14 +611,14 @@ nav ul li {
 .experienceContent {
   width: 70%;
   padding: 5%;
-  background-color: #1e638e;
-  color: #d1dfe7;
+  background-color: #d69657;
+  color: black;
   -webkit-box-shadow: 6px 6px 10px grey;
           box-shadow: 6px 6px 10px grey;
 }
 
 .experienceContent a {
-  color: #d1dfe7;
+  color: black;
 }
 
 .projects {
@@ -453,11 +643,11 @@ nav ul li {
   width: 65%;
   -webkit-box-shadow: 6px 6px 10px grey;
           box-shadow: 6px 6px 10px grey;
-  color: #d1dfe7;
 }
 
 .projectSolid {
   background-color: #1e638e;
+  color: #d1dfe7;
 }
 
 .projectSolid i {
@@ -465,7 +655,8 @@ nav ul li {
 }
 
 .projectVoid {
-  background-color: #894726;
+  background-color: #d69657;
+  color: black;
 }
 
 .projectImgLeft {
@@ -516,11 +707,12 @@ nav ul li {
 }
 
 .contactImg {
-  width: 33%;
+  width: 40%;
 }
 
 form {
-  margin: auto 0;
+  width: 40%;
+  margin: 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -528,23 +720,83 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5%;
-  background-color: #1e638e;
-  -webkit-box-shadow: 6px 6px 10px grey;
-          box-shadow: 6px 6px 10px grey;
+  padding-left: 5%;
 }
 
 form button {
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 input[type='text'],
 input[type='email'] {
-  height: 50px;
+  padding: 0 5%;
+  height: 55px;
   margin: 5% 0;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+}
+
+input[type='text']:active,
+input[type='email']:active,
+input[type='text']:focus,
+input[type='email']:focus,
+textarea:active,
+textarea:focus {
+  border: none;
+  border: 2px solid black;
+}
+
+textarea {
+  padding: 10% 5%;
+  margin: 5% 0;
+  border: 2px solid white;
+  outline: none;
+  background-color: transparent;
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1rem;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+:-ms-input-placeholder {
+  font-size: 1rem;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+::-ms-input-placeholder {
+  font-size: 1rem;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+::placeholder {
+  font-size: 1rem;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: #b5651d;
+}
+
+input:active::-webkit-input-placeholder,
+textarea:active::-webkit-input-placeholder {
+  color: #b5651d;
 }
 
 footer {
+  margin-top: 5%;
+  color: grey;
   text-align: center;
 }
 

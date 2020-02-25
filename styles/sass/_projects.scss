@@ -16,12 +16,12 @@
     text-align: right;
     width: 65%;
     box-shadow: 6px 6px 10px grey;
-    color: $primaryColor;
 }
 
 .projectSolid{
     // border: 5px solid green;
     background-color: $containerColor;
+    color: $primaryColor;
     // color: white;
     i{
         color: $primaryColor;
@@ -29,7 +29,8 @@
 }
 
 .projectVoid{
-    background-color: $voidColor;
+    background-color: $experienceColor;
+    color: black;
 }
 
 .projectImgLeft{

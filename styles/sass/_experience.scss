@@ -9,10 +9,12 @@
     // border: 5px solid green;
     width: 70%;
     padding: 5% ;
-    background-color: $containerColor;
-    color: $primaryColor;
+    background-color: $experienceColor;
+    // color: $primaryColor;
+    color: black;
     box-shadow: 6px 6px 10px grey;
     a{
-        color: $primaryColor;
+        // color: $primaryColor;
+        color: black;
     }
 }
