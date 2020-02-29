@@ -579,8 +579,8 @@ nav ul li {
   text-align: right;
   background-color: #1e638e;
   color: #d1dfe7;
-  -webkit-box-shadow: 6px 6px 10px grey;
-          box-shadow: 6px 6px 10px grey;
+  -webkit-box-shadow: 9px 9px 16px grey;
+          box-shadow: 9px 9px 16px grey;
 }
 
 .aboutImg {
@@ -615,10 +615,20 @@ nav ul li {
   color: black;
   -webkit-box-shadow: 6px 6px 10px grey;
           box-shadow: 6px 6px 10px grey;
+  position: relative;
 }
 
 .experienceContent a {
   color: black;
+}
+
+.experienceTitle {
+  margin-bottom: 0;
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  top: 6%;
+  left: 8%;
 }
 
 .projects {

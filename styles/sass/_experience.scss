@@ -5,6 +5,7 @@
     align-items: center;
 }
 
+
 .experienceContent{
     // border: 5px solid green;
     width: 70%;
@@ -13,8 +14,17 @@
     // color: $primaryColor;
     color: black;
     box-shadow: 6px 6px 10px grey;
+    position: relative;
     a{
         // color: $primaryColor;
         color: black;
     }
+}
+.experienceTitle{
+    margin-bottom: 0;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    top: 6%;
+    left: 8%
 }

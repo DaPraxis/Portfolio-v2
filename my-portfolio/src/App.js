@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/header.js';
 import About from './components/about.js';
 import Projects from './components/projects.js'
+import Experiences from './components/experiences.js'
 class App extends Component {
 
   render(){
@@ -12,6 +13,7 @@ class App extends Component {
         <main>
           <div className="wrapper">
             <About/>
+            <Experiences/>
             <Projects/>
           </div>
         </main>
