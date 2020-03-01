@@ -606,11 +606,14 @@ nav ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 10vh;
 }
 
 .experienceContent {
+  border-radius: 7px;
   width: 70%;
   padding: 5%;
+  padding-top: 8%;
   background-color: #d69657;
   color: black;
   -webkit-box-shadow: 6px 6px 10px grey;
@@ -619,7 +622,14 @@ nav ul li {
 }
 
 .experienceContent a {
-  color: black;
+  color: #173753;
+  text-decoration: underline;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.experienceContent a:hover {
+  color: #33658a;
 }
 
 .experienceTitle {
@@ -627,8 +637,8 @@ nav ul li {
   width: auto;
   display: inline-block;
   position: absolute;
-  top: 6%;
-  left: 8%;
+  top: 3%;
+  left: 5%;
 }
 
 .projects {

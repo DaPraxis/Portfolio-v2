@@ -123,20 +123,17 @@ class Experiences extends Component{
                 </div>
             )
         }
-        // return (
-        //     <section className="experience" id="experience">
-        //         <div className="experienceContent">
-        //             <div className="experienceTitle">
-        //                 <h2>Experience</h2>
-        //             </div>
-        //             <div className="experienceDetails">
-        //                 {emsemble(this.state.count, this.state.experiences)}
-        //             </div>
-        //         </div>
-        //     </section>
-        // );
         return(
-            <VerticalTabs exps={this.state.experiences}/>
+            <section className="experience" id="experience">
+                <div className="experienceContent">
+                    <div className="experienceTitle">
+                        <h2>Experience</h2>
+                    </div>
+                    <div className="experienceDetails">
+                        <VerticalTabs exps={this.state.experiences}/>
+                    </div>
+                </div>
+            </section>
         )
     }
 }

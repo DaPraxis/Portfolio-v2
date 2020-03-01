@@ -3,13 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10vh;
 }
 
 
 .experienceContent{
     // border: 5px solid green;
+    border-radius: 7px;
     width: 70%;
     padding: 5% ;
+    padding-top: 8%;
     background-color: $experienceColor;
     // color: $primaryColor;
     color: black;
@@ -17,7 +20,18 @@
     position: relative;
     a{
         // color: $primaryColor;
-        color: black;
+        // color: #044b7f;
+        color: #173753;
+        // -webkit-text-fill-color: $experienceColor; /* Will override color (regardless of order) */
+        // -webkit-text-stroke-width: 0.7px;
+        text-decoration: underline;
+        // text-decoration-color: $experienceColor;
+        // -webkit-text-stroke-color: black;
+        // color: black;
+        transition: color 0.5s;
+    }
+    a:hover{
+        color: #33658a;
     }
 }
 .experienceTitle{
@@ -25,6 +39,6 @@
     width: auto;
     display: inline-block;
     position: absolute;
-    top: 6%;
-    left: 8%
+    top: 3%;
+    left: 5%
 }
