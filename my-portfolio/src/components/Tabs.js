@@ -4,29 +4,23 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import TabPanel from './TabPanel.js';
 
-function a11yProps(index) {
-  return {
-    id: `vertical-tab-${index}`,
-    'aria-controls': `vertical-tabpanel-${index}`,
-  };
-}
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-    // backgroundColor: theme.palette.background.paper,
-    display: 'flex',
-    alignItems:'center',
-    height: 380,
-  },
-  tabs: {
-    borderRight: `2px solid ${theme.palette.divider}`,
-    minWidth: `20%`,
-    display: 'flex',
-    alignItems:'flexStart',
-    height: `100%`,
-    textTransform: 'capitalize',
-  },
+    root: {
+        flexGrow: 1,
+        // backgroundColor: theme.palette.background.paper,
+        display: 'flex',
+        alignItems:'center',
+        height: 380,
+    },
+    tabs: {
+        borderRight: `2px solid ${theme.palette.divider}`,
+        minWidth: `20%`,
+        display: 'flex',
+        alignItems:'flexStart',
+        height: `100%`,
+        textTransform: 'capitalize',
+    },
 }));
 
 export default function VerticalTabs(props) {

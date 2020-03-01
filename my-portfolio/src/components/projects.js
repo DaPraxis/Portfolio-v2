@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import SProject from './sProject.js';
 import DProject from './dProjects.js';
-import img1 from '../assets/section1.gif'
+import img1 from '../assets/section1.gif';
+import img2 from '../assets/ds.gif'
 class Projects extends Component{
 
     constructor(props){
@@ -16,7 +17,7 @@ class Projects extends Component{
                     link: "https://github.com/DaPraxis"
                 },
                 {
-                    pic: img1, 
+                    pic: img2, 
                     picAlt: "Machine Learning project",
                     date: '08-20-2019',
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cum eos esse omnis rerum sit labore numquam quisquam at, totam nostrum quibusdam nesciunt rem molestias vel eaque illo tempora. Corrupti?',

@@ -10,7 +10,8 @@ class About extends Component{
                 <div className="aboutContent">
                     <div className="aboutText">
                         <h2>About Me</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit amet distinctio minus fuga natus, aliquam, ipsa molestiae tenetur aut reiciendis dolore? Dolore ipsa iusto tempore non magnam autem, ducimus ipsum.</p>
+                        <p>Hello! I am Haoyan (Max) Jiang, a fourth year undergraduate double major in Computer Science & Statistics in the University of Toronto(st.George). </p>
+                        <p>Proud Web Developer and Machine Learning Engineer.</p>
                     </div>
                 </div>
                 <div className="aboutImg">
