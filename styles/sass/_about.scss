@@ -5,13 +5,14 @@
 
 .aboutContent{
     width: 80%;
-    margin-top: 18%;
+    margin-top: 10%;
     display: flex;
-    padding: 6% 10%;
-    justify-content: flex-end;
-    // position: relative;
-    height: 45vh;
-    text-align: right;
+    padding: 4% 10%;
+    justify-content: flex-start;
+    // float: left;
+    position: relative;
+    height: 60vh;
+    text-align: left;
     background-color: $containerColor;
     color: $primaryColor;
     box-shadow: 9px 9px 16px grey;
@@ -19,16 +20,24 @@
 }
 
 .aboutImg{
-    width: 15%;
+    width: 18%;
     position: relative;
-    top: -53%;
-    left: 68%;
+    top: -68%;
+    left: 65%;
+    box-shadow: 2px 2px 10px grey;
     // display: inline-block;
 }
 
 .aboutText{
     margin-right: 10%;
     width: 80%;
+    span{
+        color: $boldColor;
+        margin: 0;
+        // background-color: red;
+    }
 }
 
-
+.aboutBold{
+    font-weight: bold;
+}

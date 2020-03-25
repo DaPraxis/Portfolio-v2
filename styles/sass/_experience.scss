@@ -19,19 +19,23 @@
     box-shadow: 6px 6px 10px grey;
     position: relative;
     a{
-        // color: $primaryColor;
-        // color: #044b7f;
-        color: #173753;
-        // -webkit-text-fill-color: $experienceColor; /* Will override color (regardless of order) */
-        // -webkit-text-stroke-width: 0.7px;
+        color: #173753;;
         text-decoration: underline;
-        // text-decoration-color: $experienceColor;
-        // -webkit-text-stroke-color: black;
-        // color: black;
         transition: color 0.5s;
     }
     a:hover{
         color: #33658a;
+    }
+    button{
+        transition: box-shadow 0.5s;
+    }
+    button:hover, button:focus{
+        box-shadow: 5px 5px 2px gray;
+        cursor: pointer;
+    }
+    
+    button:active{
+        outline: none;
     }
 }
 .experienceTitle{

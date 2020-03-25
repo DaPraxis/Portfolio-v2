@@ -17,6 +17,7 @@ $containerColor: #1e638e;
 $voidColor: #b5651d;
 // $voidColor:#894726;
 $experienceColor: #d69657;
+$boldColor: #F5EE9E;
 
 $headerFont: 'Josefin Slab', ;
 $bodyFont:  'Josefin Sans', ;
@@ -47,7 +48,8 @@ h3{
 }
 
 h4{
-    font-size: 1.2rem;
+    font-size: 1.0rem;
+    color: $containerColor;
 }
 
 p{
@@ -86,22 +88,30 @@ i:hover,i:focus, i:active{
     transform: scale(1.5);
 }
 
+
+
 button{
-    background-color: $buttonColor;
-    border: none;
+    background-color: $primaryColor;
+    border: 2px solid $buttonColor;
     color: white;
+
     padding: 5% 2%;
     font-size: 1.2rem;
-    border-radius: 12px;
+    // border-radius: 12px;
     box-shadow: none;
-    transition: box-shadow 0.5s;
+    // transition: box-shadow 0.5s;
 }
 
 button:hover, button:focus{
-    box-shadow: 5px 5px 2px gray;
+    // box-shadow: 5px 5px 2px gray;
     cursor: pointer;
 }
 
 button:active{
     outline: none;
 }
+
+// .scrolling-box{
+//     // overflow-y: scroll;
+//     scroll-behavior: smooth;
+// }

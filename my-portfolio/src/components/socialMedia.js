@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'; 
+import { faGithub, faTwitter, faLinkedinIn, faMediumM} from '@fortawesome/free-brands-svg-icons'; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-library.add(faGithub, faTwitter, faLinkedinIn);
+library.add(faGithub, faTwitter, faLinkedinIn, faMediumM);
 
 class SocialMedia extends Component{
     render(){
@@ -16,6 +16,14 @@ class SocialMedia extends Component{
                             {/* <i className="fab fa-github"></i> */}
                             <FontAwesomeIcon icon={['fab', 'github']} />
                             <span className="visuallyhidden">github</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://medium.com/@haoyanjiang0709">
+                            {/* <i className="fab fa-twitter"></i> */}
+                            <FontAwesomeIcon icon={['fab', 'medium-m']} />
+                            <span className="visuallyhidden">medium</span>
                         </a>
                     </li>
             

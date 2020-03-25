@@ -7,6 +7,16 @@ class Experiences extends Component{
         experiences:
         [
             {
+                label:'UofT IML Lab',
+                title: 'Machine Learning Engineer & Software Developer',
+                location: '@University of Toronto Interactive Media Lab',
+                time: '02/2020 – present',
+                link: "https://imedia.mie.utoronto.ca/",
+                content:['Using the Transfer Learning model, Multitask Learning and Convolutional Neural Network to analyze fMRI images and predict the stage of dementia based on full-brain analysis',
+                    "Developing the Centivizer system with Full-Stack techniques to stimulate subjects' different brain sections",
+                    ]
+            },
+            {
                 title: 'Software Engineer & 3D Modeling',
                 label: 'UofT IML Lab',
                 link: 'https://imedia.mie.utoronto.ca/', 
@@ -15,19 +25,9 @@ class Experiences extends Component{
                 content: [
                     'Driving Simulation Game for Elder People; Engine building, game logic and modeling of real-time driving experiences on web-serving applications using Babylon.js',
                 'Building and importing 3D models for famous scenic views in the world using Blender',
-                'Data collection and analysis with MongoDB, using learning algorism to analyze player’s brain functionality',
-                'Working with elder people in medical institutes to improve game design and game play experiences']    
+                'Provide data insight with MongoDB, using learning algorism to analyze player’s brain functionality'
+            ]    
             },
-            {
-                label:'UofT IML Lab',
-                title: 'Junior Full Stack Developer',
-                location: '@University of Toronto Interactive Media Lab',
-                time: '04/2019 – 09/2019',
-                link: "https://imedia.mie.utoronto.ca/",
-                content:['Managing back-end performance, administration and data collections using MongoDB',
-                    'Responsive web design, exposure to React.js implementation, Node.js',
-                    'Interactive dashboard design and data representation for future researches']
-            }
         ]
     }
     constructor(props){
@@ -37,7 +37,7 @@ class Experiences extends Component{
 
     render() {
         return(
-            <section className="experience" id="experience">
+            <section className="experience" id="experience" name='experience'>
                 <div className="experienceContent">
                     <div className="experienceTitle">
                         <h2>Experience</h2>

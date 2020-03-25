@@ -41,7 +41,7 @@ class Projects extends Component{
         });
         console.log(this.projects)
         return (
-            <section className="projects" id="projects">
+            <section className="projects" id="projects" name='projects'>
                 {this.projects}
             </section>
         );
