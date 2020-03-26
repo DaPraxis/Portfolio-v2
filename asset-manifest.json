@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio-v2/static/css/main.7b039e9d.chunk.css",
-    "main.js": "/Portfolio-v2/static/js/main.44721dbe.chunk.js",
-    "main.js.map": "/Portfolio-v2/static/js/main.44721dbe.chunk.js.map",
-    "runtime-main.js": "/Portfolio-v2/static/js/runtime-main.0df4959e.js",
-    "runtime-main.js.map": "/Portfolio-v2/static/js/runtime-main.0df4959e.js.map",
-    "static/js/2.7718bb9a.chunk.js": "/Portfolio-v2/static/js/2.7718bb9a.chunk.js",
-    "static/js/2.7718bb9a.chunk.js.map": "/Portfolio-v2/static/js/2.7718bb9a.chunk.js.map",
-    "index.html": "/Portfolio-v2/index.html",
-    "precache-manifest.6634e0e371e0ff0c7b937a7f576b5a67.js": "/Portfolio-v2/precache-manifest.6634e0e371e0ff0c7b937a7f576b5a67.js",
-    "service-worker.js": "/Portfolio-v2/service-worker.js",
-    "static/css/main.7b039e9d.chunk.css.map": "/Portfolio-v2/static/css/main.7b039e9d.chunk.css.map",
-    "static/js/2.7718bb9a.chunk.js.LICENSE.txt": "/Portfolio-v2/static/js/2.7718bb9a.chunk.js.LICENSE.txt",
-    "static/media/Haoyan_Jiang.pdf": "/Portfolio-v2/static/media/Haoyan_Jiang.db27f58a.pdf",
-    "static/media/attention.jpg": "/Portfolio-v2/static/media/attention.10abc635.jpg",
-    "static/media/compressed 1MB Haoyan.jpg": "/Portfolio-v2/static/media/compressed 1MB Haoyan.18058601.jpg",
-    "static/media/ds.gif": "/Portfolio-v2/static/media/ds.2cd8afab.gif",
-    "static/media/lstm.png": "/Portfolio-v2/static/media/lstm.a8cdacaa.png"
+    "main.css": "/static/css/main.7b039e9d.chunk.css",
+    "main.js": "/static/js/main.121e509b.chunk.js",
+    "main.js.map": "/static/js/main.121e509b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d97d6f01.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d97d6f01.js.map",
+    "static/js/2.7718bb9a.chunk.js": "/static/js/2.7718bb9a.chunk.js",
+    "static/js/2.7718bb9a.chunk.js.map": "/static/js/2.7718bb9a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.957788c3ea9706cc40ca23efd86604b7.js": "/precache-manifest.957788c3ea9706cc40ca23efd86604b7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7b039e9d.chunk.css.map": "/static/css/main.7b039e9d.chunk.css.map",
+    "static/js/2.7718bb9a.chunk.js.LICENSE.txt": "/static/js/2.7718bb9a.chunk.js.LICENSE.txt",
+    "static/media/Haoyan_Jiang.pdf": "/static/media/Haoyan_Jiang.db27f58a.pdf",
+    "static/media/attention.jpg": "/static/media/attention.10abc635.jpg",
+    "static/media/compressed 1MB Haoyan.jpg": "/static/media/compressed 1MB Haoyan.18058601.jpg",
+    "static/media/ds.gif": "/static/media/ds.2cd8afab.gif",
+    "static/media/lstm.png": "/static/media/lstm.a8cdacaa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0df4959e.js",
+    "static/js/runtime-main.d97d6f01.js",
     "static/js/2.7718bb9a.chunk.js",
     "static/css/main.7b039e9d.chunk.css",
-    "static/js/main.44721dbe.chunk.js"
+    "static/js/main.121e509b.chunk.js"
   ]
 }
