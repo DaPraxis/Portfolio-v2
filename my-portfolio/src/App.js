@@ -14,11 +14,9 @@ class App extends Component {
         <main>
           <div className="wrapper">
             <Fade>
-              <div className='scrolling-box'>
-                <About/>
-                <Experiences/>
-                <Projects/>
-              </div>
+              <About/>
+              <Experiences/>
+              <Projects/>
             </Fade>
           </div>
         </main>

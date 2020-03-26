@@ -14,15 +14,15 @@ class Header extends Component {
               lastScrollY: 0,  // Keep track of current position in state
         }
     }
-    componentWillMount() {
+    componentDidMount() {
         // When this component mounts, begin listening for scroll changes
         window.addEventListener('scroll', this.handleScroll);
     }
     
-    componentWillUnmount() {
-        // If this component is unmounted, stop listening
-    window.removeEventListener('scroll', this.handleScroll);
-    }
+    // componentWillUnmount() {
+    //     // If this component is unmounted, stop listening
+    // window.removeEventListener('scroll', this.handleScroll);
+    // }
 
     handleScroll = () => {
     const { lastScrollY } = this.state; 
@@ -41,7 +41,7 @@ class Header extends Component {
     render(){
         return (
             <header>
-            <div className="wrapper scrolling-box" id='home' name='home'>
+            <div className="wrapper" id='home' name='home'>
                 <Navigation slide={this.state.slide}/>
                 <div className="titleText">
                     <h1>

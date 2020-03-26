@@ -50,10 +50,10 @@ class Projects extends Component{
         var count = 0
         this.state.projects.forEach(e => {
             if(count%2===0){
-                this.projects.push(<SProject key={count} project={e}/>)
+                this.projects.push(<SProject key={count} project={e} index={count}/>)
             }
             else{
-                this.projects.push(<DProject key={count} project={e}/>)
+                this.projects.push(<DProject key={count} project={e} index={count}/>)
             }
             count++;
         });

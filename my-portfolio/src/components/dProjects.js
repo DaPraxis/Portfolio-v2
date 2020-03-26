@@ -9,18 +9,18 @@ class DProject extends Component{
         this.link = props.project.link;
         this.date = props.project.date;
         this.tech = props.project.techs;
+        this.index = props.index;
         this.techs = []
         this.tech.forEach((e, index)=>{
             this.techs.push(
-                <div className='containerP' key={index}>
-                    <div className="wrap" key={index+10}>
-                        <div className="first" key={index+100}>{e[0]}</div>
-                        <div className="second" key={index+200}>{e[1]}</div>
+                <div className='containerP' key={index+1000*this.index}>
+                    <div className="wrap" key={index+10+1000*this.index}>
+                        <div className="first" key={index+100+1000*this.index}>{e[0]}</div>
+                        <div className="second" key={index+200+1000*this.index}>{e[1]}</div>
                     </div>
                 </div>
             )
         })
-        console.log(this.techs)
     }
 
     render() {
