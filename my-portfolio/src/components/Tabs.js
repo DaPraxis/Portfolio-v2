@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
     },
     tabs: {
         borderRight: `2px solid ${theme.palette.divider}`,
-        minWidth: `20%`,
+        minWidth: `17%`,
         display: 'flex',
         alignItems:'flexStart',
         height: `100%`,
@@ -36,7 +36,8 @@ export default function VerticalTabs(props) {
     lst.push(<h3 key={'1'+10*index}>{exp.title}</h3>)
     lst.push(<a key={'2'+10*index} href={exp.link}>{exp.location}</a>)
     lst.push(<h4 key={'3'+10*index}>{exp.time}</h4>)
-    let ps =exp.content.map((e, index)=><p key={index}>{e}</p>)
+    // let ps =exp.content.map((e, index)=><p key={index}>{e}</p>)
+    let ps = exp.content;
     lst= lst.concat(ps)
     ret.push(
         <TabPanel value={value} index={index} key={index+"panel"}>

@@ -4,7 +4,8 @@ import DProject from './dProjects.js';
 import img1 from '../assets/attention.jpg';
 import img2 from '../assets/ds.gif';
 import img3 from '../assets/lstm.png';
-import {DiMongodb, DiJavascript1, DiPython, DiNpm} from "react-icons/di";
+import img4 from '../assets/hearhear.PNG'
+import {DiMongodb, DiJavascript1, DiPython, DiNpm, DiMaterializecss, DiRuby, DiReact, DiHeroku,DiPostgresql} from "react-icons/di";
 import { Icon, InlineIcon } from '@iconify/react';
 import pytorchIcon from '@iconify/icons-simple-icons/pytorch';
 class Projects extends Component{
@@ -21,6 +22,15 @@ class Projects extends Component{
                     text: 'Take advantage of the LSTM model to deal with longitudinal data and time-series problems.',
                     link: "https://github.com/DaPraxis",
                     techs: [[<DiPython className='icon'/>,'python'],[<Icon icon={pytorchIcon} className='icon'/>, 'PyTorch']]
+                },
+                {
+                    title: 'License Purchasing & Subscription Managing Website for Performance Right Organizations(PRO)',
+                    pic: img4, 
+                    picAlt: "Subscription site",
+                    date: '2020 Jan - Present',
+                    text: 'Implementation of license purchasing, user management, data insight and subscription management for PROs like SOCAN',
+                    link: "https://github.com/DaPraxis",
+                    techs: [[<DiMaterializecss className='icon'/>,'Material_Design'],[<DiRuby className='icon'/>, 'Ruby_on_Rail'], [<DiJavascript1 className='icon'/>, 'JavaScript'], [<DiReact className='icon'/>, 'React.js'],[<DiHeroku className='icon'/>, 'Heroku'],[<DiPostgresql className='icon'/>, 'PostgreSQL'],[<DiNpm className='icon'/>, 'npm']]
                 },
                 {
                     title: 'Self-implementation of Transformer and GRU with Attention',

@@ -11,7 +11,7 @@
     // border: 5px solid green;
     border-radius: 7px;
     width: 70%;
-    padding: 5% ;
+    padding: 3% ;
     padding-top: 8%;
     background-color: $experienceColor;
     // color: $primaryColor;
@@ -19,23 +19,43 @@
     box-shadow: 6px 6px 10px grey;
     position: relative;
     a{
-        color: #173753;;
+        color: $experienceThirdColor;;
         text-decoration: underline;
-        transition: color 0.5s;
+        transition: color 1s;
+        font-weight: bold;
+        // transition: font-weight 1s ease-in-out;
     }
     a:hover{
-        color: #33658a;
+        color: $experienceSecondColor;
     }
+
+    h3{
+        color: black;
+    }
+
+    h4{
+        color: $experienceThirdColor
+    }
+
     button{
         transition: box-shadow 0.5s;
     }
     button:hover, button:focus{
-        box-shadow: 5px 5px 2px gray;
+        box-shadow: 5px 5px 2px $experienceSecondColor;
         cursor: pointer;
     }
     
     button:active{
         outline: none;
+    }
+
+    p span{
+        color: $experienceSecondColor;
+        // color: #E2DB8E;
+        // text-decoration: ;
+        font-style: italic;
+        // font-weight: bold;
+        margin-left: 0px;
     }
 }
 .experienceTitle{

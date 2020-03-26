@@ -12,8 +12,8 @@ class Experiences extends Component{
                 location: '@University of Toronto Interactive Media Lab',
                 time: '02/2020 – present',
                 link: "https://imedia.mie.utoronto.ca/",
-                content:['Using the Transfer Learning model, Multitask Learning and Convolutional Neural Network to analyze fMRI images and predict the stage of dementia based on full-brain analysis',
-                    "Developing the Centivizer system with Full-Stack techniques to stimulate subjects' different brain sections",
+                content:[<p>Using <span>the Transfer Learning model</span>, <span>Multitask Learning</span> and <span>Convolutional Neural Network</span> to analyze <span>fMRI images</span> and predict the stage of dementia based on full-brain analysis</p>,
+                    <p>Developing <span>the Centivizer system</span> with <span>Full-Stack</span> techniques to stimulate subjects' different brain sections</p>,
                     ]
             },
             {
@@ -23,9 +23,9 @@ class Experiences extends Component{
                 location: '@University of Toronto Interactive Media Lab',
                 time:' 05/2019 - 09/2019',
                 content: [
-                    'Driving Simulation Game for Elder People; Engine building, game logic and modeling of real-time driving experiences on web-serving applications using Babylon.js',
-                'Building and importing 3D models for famous scenic views in the world using Blender',
-                'Provide data insight with MongoDB, using learning algorism to analyze player’s brain functionality'
+                    <p>Driving Simulation Game for Elder People; Engine building, game logic and modeling of real-time driving experiences on web-serving applications using <span>Babylon.js</span></p>,
+                <p>Building and importing 3D models for famous scenic views in the world using <span>Blender</span></p>,
+                <p>Provide data insight with <span>MongoDB</span>, using learning algorism to analyze player’s brain functionality</p>
             ]    
             },
         ]

@@ -695,7 +695,7 @@ nav ul button:focus {
 .experienceContent {
   border-radius: 7px;
   width: 70%;
-  padding: 3%;
+  padding: 5%;
   padding-top: 8%;
   background-color: #d69657;
   color: black;
@@ -705,23 +705,18 @@ nav ul button:focus {
 }
 
 .experienceContent a {
-  color: #6A2E35;
+  color: #173753;
   text-decoration: underline;
-  -webkit-transition: color 1s;
-  transition: color 1s;
-  font-weight: bold;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
 .experienceContent a:hover {
-  color: #EFE46E;
+  color: #33658a;
 }
 
 .experienceContent h3 {
   color: black;
-}
-
-.experienceContent h4 {
-  color: #6A2E35;
 }
 
 .experienceContent button {
@@ -732,19 +727,13 @@ nav ul button:focus {
 }
 
 .experienceContent button:hover, .experienceContent button:focus {
-  -webkit-box-shadow: 5px 5px 2px #EFE46E;
-          box-shadow: 5px 5px 2px #EFE46E;
+  -webkit-box-shadow: 5px 5px 2px gray;
+          box-shadow: 5px 5px 2px gray;
   cursor: pointer;
 }
 
 .experienceContent button:active {
   outline: none;
-}
-
-.experienceContent p span {
-  color: #EFE46E;
-  font-style: italic;
-  margin-left: 0px;
 }
 
 .experienceTitle {
@@ -754,6 +743,18 @@ nav ul button:focus {
   position: absolute;
   top: 3%;
   left: 5%;
+}
+
+.content p span {
+  color: white;
+}
+
+.content p {
+  color: white;
+}
+
+.content {
+  color: white;
 }
 
 .projects {
@@ -1003,3 +1004,4 @@ footer {
 footer p {
   font-size: 1.3rem;
 }
+/*# sourceMappingURL=style.css.map */

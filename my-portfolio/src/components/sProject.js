@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import {DiGithubBadge} from "react-icons/di"
 class SProject extends Component{
     constructor(props){
         super(props);
@@ -11,7 +11,20 @@ class SProject extends Component{
         this.date = props.project.date;
         this.tech = props.project.techs;
         this.index = props.index;
-        this.techs = []
+        this.techs = [
+        <a href={this.link} className='icon' key={"kk"+this.index} style={{
+            width:"35px",
+            height:"36px",
+            marginRight:"30px",
+            marginTop: "2px"
+        }}>
+            <DiGithubBadge style={{
+                width:"100%",
+                height:"100%"
+            }}/>
+            <span className="visuallyhidden">github</span>
+        </a>
+        ]
         this.tech.forEach((e, index)=>{
             this.techs.push(
                 <div className='containerP' key={index+1000*this.index}>
