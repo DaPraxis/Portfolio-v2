@@ -20,6 +20,7 @@ class DProject extends Component{
                 </div>
             )
         })
+        console.log(this.techs)
     }
 
     render() {
@@ -34,7 +35,9 @@ class DProject extends Component{
                         <h3>{this.title}</h3>
                         <p>{this.date}</p>
                         <p>{this.text}</p>
-                        {this.techs}
+                        <div className='techs'>
+                            {this.techs}
+                        </div>
                     </div>
                 </div>
             </div>

@@ -57,7 +57,6 @@ class Projects extends Component{
             }
             count++;
         });
-        console.log(this.projects)
         return (
             <section className="projects" id="projects" name='projects'>
                 {this.projects}

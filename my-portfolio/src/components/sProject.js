@@ -8,7 +8,6 @@ class SProject extends Component{
         this.picAlt = props.project.picAlt;
         this.text = props.project.text;
         this.link = props.project.link;
-        this.techs = props.project.techs;
         this.date = props.project.date;
         this.tech = props.project.techs;
         this.techs = []
