@@ -3,12 +3,25 @@ import React, {Component} from 'react';
 class SProject extends Component{
     constructor(props){
         super(props);
-        this.pic = props.projectImg;
-        this.picAlt = props.projectAlt;
-        this.text = props.text;
-        this.link = props.link;
-        this.techs = props.techs;
-        this.date = props.date;
+        this.title = props.project.title
+        this.pic = props.project.pic;
+        this.picAlt = props.project.picAlt;
+        this.text = props.project.text;
+        this.link = props.project.link;
+        this.techs = props.project.techs;
+        this.date = props.project.date;
+        this.tech = props.project.techs;
+        this.techs = []
+        this.tech.forEach((e, index)=>{
+            this.techs.push(
+                <div className='containerP' key={index}>
+                    <div className="wrap" key={index+10}>
+                        <div className="first" key={index+100}>{e[0]}</div>
+                        <div className="second" key={index+200}>{e[1]}</div>
+                    </div>
+                </div>
+            )
+        })
     }
 
     render() {
@@ -20,15 +33,12 @@ class SProject extends Component{
                     </div>
 
                     <div className="projectDetail">
-                        <h3>Title</h3>
+                        <h3>{this.title}</h3>
                         <p>{this.date}</p>
                         <p>{this.text}</p>
-                        <h4>Techology</h4>
-                        <a href={this.link}>
-                            <i className="fab fa-github"></i>
-                            <span className="visuallyhidden">github</span>
-                        </a>
-                    <p>{this.techs}</p>
+                        <div className='techs'>
+                            {this.techs}
+                        </div>
                     </div>
                 </div>
             </div>

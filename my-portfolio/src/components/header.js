@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SocialMedia from './socialMedia.js'
 import Navigation from './navigation.js'
+import Typed from 'react-typed';
 class Header extends Component {
     constructor(props){
         super(props)
@@ -46,9 +47,23 @@ class Header extends Component {
                     <h1>
                         Max Jiang
                     </h1>
-                    <h3>
-                        Software/Machine Learning Engineer
-                    </h3>
+                    <Typed
+                        strings={['I am a <Strong>Machine Learning Engineer</Strong> 🧮', 'I am a <Strong>Full-Stack Developer</Strong> 🕸', 'I am a <Strong>Gamer</Strong> 🎮']}
+                        typeSpeed={30}
+                        backSpeed={15}
+                        backDelay={2000}
+                        showCursor
+                        smartBackspace
+                        loop
+                        style={{
+                            width : "100%",
+                            fontSize: "1.8rem",
+                            fontFamily: 'Josefin Sans',
+                            fontWeight:"bold",
+                            marginTop:"10px"
+
+                        }}
+                    />
                     <h4>
                         <span className="work">Work</span>
                         <span className="play">Play</span>
