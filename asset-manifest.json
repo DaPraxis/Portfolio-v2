@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio-v2/static/css/main.348730a3.chunk.css",
+    "main.js": "/Portfolio-v2/static/js/main.2fda2e8a.chunk.js",
+    "main.js.map": "/Portfolio-v2/static/js/main.2fda2e8a.chunk.js.map",
+    "runtime-main.js": "/Portfolio-v2/static/js/runtime-main.0df4959e.js",
+    "runtime-main.js.map": "/Portfolio-v2/static/js/runtime-main.0df4959e.js.map",
+    "static/js/2.7718bb9a.chunk.js": "/Portfolio-v2/static/js/2.7718bb9a.chunk.js",
+    "static/js/2.7718bb9a.chunk.js.map": "/Portfolio-v2/static/js/2.7718bb9a.chunk.js.map",
+    "index.html": "/Portfolio-v2/index.html",
+    "precache-manifest.39afef717a7a2e3f6ee9622e7814f5ee.js": "/Portfolio-v2/precache-manifest.39afef717a7a2e3f6ee9622e7814f5ee.js",
+    "service-worker.js": "/Portfolio-v2/service-worker.js",
+    "static/css/main.348730a3.chunk.css.map": "/Portfolio-v2/static/css/main.348730a3.chunk.css.map",
+    "static/js/2.7718bb9a.chunk.js.LICENSE.txt": "/Portfolio-v2/static/js/2.7718bb9a.chunk.js.LICENSE.txt",
+    "static/media/Haoyan_Jiang.pdf": "/Portfolio-v2/static/media/Haoyan_Jiang.db27f58a.pdf",
+    "static/media/attention.jpg": "/Portfolio-v2/static/media/attention.10abc635.jpg",
+    "static/media/compressed 1MB Haoyan.jpg": "/Portfolio-v2/static/media/compressed 1MB Haoyan.18058601.jpg",
+    "static/media/ds.gif": "/Portfolio-v2/static/media/ds.2cd8afab.gif",
+    "static/media/lstm.png": "/Portfolio-v2/static/media/lstm.a8cdacaa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0df4959e.js",
+    "static/js/2.7718bb9a.chunk.js",
+    "static/css/main.348730a3.chunk.css",
+    "static/js/main.2fda2e8a.chunk.js"
+  ]
+}
