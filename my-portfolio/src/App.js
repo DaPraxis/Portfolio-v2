@@ -4,6 +4,7 @@ import About from './components/about.js';
 import Projects from './components/projects.js'
 import Experiences from './components/experiences.js'
 import Fade from 'react-reveal/Fade';
+import Form from './components/Contact'
 class App extends Component {
 
   render(){
@@ -17,6 +18,7 @@ class App extends Component {
               <About/>
               <Experiences/>
               <Projects/>
+              <Form/>
             </Fade>
           </div>
         </main>

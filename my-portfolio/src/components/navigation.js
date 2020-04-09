@@ -37,7 +37,7 @@ class Navigation extends Component{
                             <a href="#contact" onClick={()=>this.scrollTo('contact')}>CONTACT</a>
                         </li>
                         <form method="get" action={pdf}>
-                            <button type="submit" className="nav-link scroll button-Nav"> RESUME </button>
+                            <button type="submit" className="nav-link scroll button-Nav" style={{marginTop:"4px", marginLeft:"15px"}}> RESUME </button>
                         </form>
                     </ul>
                 </nav>
