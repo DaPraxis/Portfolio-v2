@@ -17,6 +17,7 @@ import Card from '@material-ui/core/Card';
 import * as emailjs from 'emailjs-com'
 import ShowOff from './ShowOff'
 import {teal, cyan} from '@material-ui/core/colors';
+import Fade from 'react-reveal/Fade';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -39,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     margin: theme.spacing(1),
-    backgroundColor: theme.palette.secondary.main,
+    // backgroundColor: theme.palette.secondary.main,
   },
   form: {
     width: '100%', // Fix IE 11 issue.
@@ -116,19 +117,25 @@ const resetForm= ()=>{
     return (
   <Grid container component="main" className={classes.root}>
       {/* <CssBaseline /> */}
-      <Grid item xs={false} sm={4} md={7} className={classes.image}>
-        <ShowOff/>
-      </Grid>
+      {/* <Fade left> */}
+        <Grid item xs={false} sm={4} md={7} className={classes.image}>
+          <ShowOff/>
+        </Grid>
+      {/* </Fade> */}
+      {/* <Fade left> */}
       <Grid item xs={12} sm={6} md={5} component={Paper} elevation={2} square>
         <div className={classes.paper}>
         <ThemeProvider theme={theme}>
-          <Avatar className={classes.avatar}>
-            <ContactMailRoundedIcon />
+          <Avatar className={classes.avatar} style={{color: teal}}>
+            <ContactMailRoundedIcon/>
           </Avatar>
           <Typography component="h1" variant="h5">
             Contact Me
           </Typography>
-          <form className={classes.form} noValidate>
+          <form className={classes.form} 
+          action="http://www.focuspocus.io/magic/haoyanjiang0709@gmail.com" 
+          method="POST" 
+          enctype="multipart/form-data">
             <TextField
               variant="outlined"
               margin="normal"
@@ -140,7 +147,7 @@ const resetForm= ()=>{
               value={values.email}
               onChange={handleChange('email')}
               autoComplete="email"
-              autoFocus
+              // autoFocus
             />
             <TextField
               variant="outlined"
@@ -203,6 +210,7 @@ const resetForm= ()=>{
           </ThemeProvider>
         </div>
       </Grid>
+      {/* </Fade> */}
     </Grid>
   );
 }

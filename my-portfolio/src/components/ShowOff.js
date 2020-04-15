@@ -63,7 +63,7 @@ function Boxes() {
 export default function ShowOff(){
     return(
         <Canvas
-            gl={{ antialias: false, alpha: false }}
+            gl={{ antialias: false, alpha: true }}
             camera={{ position: [10, 15, 15], near: 5, far: 30 }}
             onCreated={({ gl }) => {
             gl.toneMapping = THREE.Uncharted2ToneMapping
