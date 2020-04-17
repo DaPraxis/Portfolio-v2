@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio-v2/static/css/main.5182b3a8.chunk.css",
-    "main.js": "/Portfolio-v2/static/js/main.b0da05bf.chunk.js",
-    "main.js.map": "/Portfolio-v2/static/js/main.b0da05bf.chunk.js.map",
+    "main.css": "/Portfolio-v2/static/css/main.c9c401ce.chunk.css",
+    "main.js": "/Portfolio-v2/static/js/main.b937515b.chunk.js",
+    "main.js.map": "/Portfolio-v2/static/js/main.b937515b.chunk.js.map",
     "runtime-main.js": "/Portfolio-v2/static/js/runtime-main.0df4959e.js",
     "runtime-main.js.map": "/Portfolio-v2/static/js/runtime-main.0df4959e.js.map",
-    "static/js/2.c3d37577.chunk.js": "/Portfolio-v2/static/js/2.c3d37577.chunk.js",
-    "static/js/2.c3d37577.chunk.js.map": "/Portfolio-v2/static/js/2.c3d37577.chunk.js.map",
+    "static/js/2.8e4fee3f.chunk.js": "/Portfolio-v2/static/js/2.8e4fee3f.chunk.js",
+    "static/js/2.8e4fee3f.chunk.js.map": "/Portfolio-v2/static/js/2.8e4fee3f.chunk.js.map",
     "index.html": "/Portfolio-v2/index.html",
-    "precache-manifest.23009c687d15cfa549228d3d93596eeb.js": "/Portfolio-v2/precache-manifest.23009c687d15cfa549228d3d93596eeb.js",
+    "precache-manifest.3d68c57652a6be862371f911c6b89b24.js": "/Portfolio-v2/precache-manifest.3d68c57652a6be862371f911c6b89b24.js",
     "service-worker.js": "/Portfolio-v2/service-worker.js",
-    "static/css/main.5182b3a8.chunk.css.map": "/Portfolio-v2/static/css/main.5182b3a8.chunk.css.map",
-    "static/js/2.c3d37577.chunk.js.LICENSE.txt": "/Portfolio-v2/static/js/2.c3d37577.chunk.js.LICENSE.txt",
+    "static/css/main.c9c401ce.chunk.css.map": "/Portfolio-v2/static/css/main.c9c401ce.chunk.css.map",
+    "static/js/2.8e4fee3f.chunk.js.LICENSE.txt": "/Portfolio-v2/static/js/2.8e4fee3f.chunk.js.LICENSE.txt",
     "static/media/Haoyan_Jiang.pdf": "/Portfolio-v2/static/media/Haoyan_Jiang.db27f58a.pdf",
     "static/media/NIH.PNG": "/Portfolio-v2/static/media/NIH.18bae775.PNG",
     "static/media/attention.jpg": "/Portfolio-v2/static/media/attention.10abc635.jpg",
     "static/media/compressed 1MB Haoyan.jpg": "/Portfolio-v2/static/media/compressed 1MB Haoyan.18058601.jpg",
-    "static/media/ds.gif": "/Portfolio-v2/static/media/ds.2cd8afab.gif",
+    "static/media/ds.gif": "/Portfolio-v2/static/media/ds.910cc5ca.gif",
     "static/media/lstm.png": "/Portfolio-v2/static/media/lstm.a8cdacaa.png",
     "static/media/socan.gif": "/Portfolio-v2/static/media/socan.a74cd05d.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.0df4959e.js",
-    "static/js/2.c3d37577.chunk.js",
-    "static/css/main.5182b3a8.chunk.css",
-    "static/js/main.b0da05bf.chunk.js"
+    "static/js/2.8e4fee3f.chunk.js",
+    "static/css/main.c9c401ce.chunk.css",
+    "static/js/main.b937515b.chunk.js"
   ]
 }
